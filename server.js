@@ -59,7 +59,8 @@ server.delete('/videos/:id', async (request, reply) => {
 
 
 server.listen({
-    port: process.env.PORT
+    host: '0.0.0',
+    port: process.env.PORT ?? 3333,
 });
 
 
