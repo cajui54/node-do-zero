@@ -1,0 +1,35 @@
+
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+    "title": "node application",
+    "description": "We're studing Node.js",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3333/videos
+//?search=node
+###
+
+PUT http://localhost:3333/videos/46ebfe2e-de0d-4ed0-ab3e-ae99bbe74735
+Content-type: application/json
+
+{
+    "title": "Days of glore",
+    "description": "Testing router PUT",
+    "duration": 20
+}
+
+###
+
+ DELETE http://localhost:3333/videos/180
+ 
+
+
+
+
+
+

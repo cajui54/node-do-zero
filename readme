@@ -1,0 +1,12 @@
+to run npm run dev
+
+to too install in this app
+
+## Fastify: micro framework
+to install: npm install fastify
+
+## lib dotenv
+to install: npm i dotenv -D
+
+## to run app
+npm run dev
